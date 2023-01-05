@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --heading: #393a56;
+  --text: #7E7F853;
+  --theme: #fd5353;
+  --bg: #dce2e7;
+  --footerBg: #385994;
+}
+
+body {
+  font-family: "poppins";
+  overflow-x: hidden;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: black;
+}
+p {
+  color: var(--text);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+header {
+  background-color: var(--bg);
+  width: 100vw;
+  height: 90vh;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.nav-links li {
+  margin: 0 20px;
+  padding: 20px;
+}
+.nav-links img {
+  width: 50px;
+}
+.nav-links li a {
+  color: var(--heading);
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  background-color: rgb(201, 187, 214);
+}
+.header-content img {
+  max-width: 90%;
+}
+.header-info {
+  flex: 60%;
+  padding: 20px;
+}
+.header-info h1 {
+  font-size: 50px;
+}
+.header-info h3,
+.header-info p {
+  margin: 20px auto;
+}
+.ctn {
+  background-color: var(--theme);
+  color: white;
+  border: none;
+  padding: 20px;
+  font-size: 10px;
+  border-radius: 20px;
+}
+
+/* section */
+
+#categories {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+/* FEATURES SECTION */
+
+#feature-products {
+  /* display: flex; */
+  margin-top: 50px auto;
+}
+.section-info {
+  display: flex;
+  flex-direction: column;
+  margin: 80px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-info h1 {
+  font-size: 30px;
+}
+
+.product {
+  display: flex;
+  margin: 50px auto;
+  justify-content: space-between;
+}
+.prod-content {
+  margin: 10px;
+}
+.prod-content p {
+  font-size: 20px;
+}
+
+.offer {
+  margin: 50px auto;
+  background-color: var(--bg);
+}
+.offer .container {
+  display: flex;
+  align-items: center;
+}
+.offer .container img {
+  max-width: 600px;
+}
+.offer-content h1,
+.offer-content p {
+  margin: 20px 0;
+}
+
+.offer-content h1 {
+  font-size: 30px;
+  /* padding: 10px 0; */
+}
+#featured {
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer {
+  background-color: var(--footerBg);
+}
+footer p,
+footer li {
+  color: white;
+  font-size: 20px;
+}
+footer h3 {
+  margin: 10px 0;
+  color: white;
+  font-size: 30px;
+}
+.footer-content {
+  display: flex;
+  padding: 50px 0;
+}
+.footer-content .col {
+  flex: 1;
+}
+.copy {
+  padding: 10px 0;
+  text-align: center;
+}
+.copy p {
+  font-size: 25px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+/* Responsive queries */
+
+/* for mobile */
+
+/* 
+@media only screen and (max-width:750px){
+
+    .nav{
+        flex-direction: column;
+
+    }
+    .nav-links{
+        flex-direction: column;
+        background-color: var(--footerBg);
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+    }
+    .nav-links li{
+        margin: 10px auto;
+    }
+    .nav-links li a{
+        font-size: 20px;
+        color: white;
+    }
+    .nav-links li a img{
+        display:none;
+    }
+
+    header{
+        height: 100%;
+    }
+    .header-content{
+
+        flex-direction: column;
+    }
+}
+
+     */
